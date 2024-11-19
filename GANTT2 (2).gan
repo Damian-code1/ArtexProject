@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-08-01" view-index="0" gantt-divider-location="724" resource-divider-location="300" version="3.3.3309" locale="es_ES">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="138" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="68" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="86" order="2"/>
+        <field id="tpc0" name="Responsable(s)" width="220" order="3"/>
+        <field id="tpd15" name="Notas" width="20" order="4"/>
+        <field id="tpd9" name="Antecesores" width="89" order="4"/>
+        <field id="tpd6" name="Duración" width="52" order="5"/>
+        <field id="tpd10" name="Id." width="55" order="6"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#00ffff #006633 #006600 #006666 #9999ff #999900 #ff66ff #f4f4f4 #ff66cc #00cccc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="Responsable(s)" type="custom" valuetype="text" defaultvalue=""/>
+        </taskproperties>
+        <task id="23" uid="b090eb0721f44b07ac3806181bc1233a" name="Contrato de Grupo" color="#ff3333" meeting="false" start="2024-04-29" duration="9" complete="0" expand="true">
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+            <depend id="40" type="2" difference="0" hardness="Strong"/>
+            <depend id="41" type="2" difference="0" hardness="Strong"/>
+            <depend id="42" type="2" difference="0" hardness="Strong"/>
+            <depend id="43" type="2" difference="0" hardness="Strong"/>
+            <depend id="44" type="2" difference="0" hardness="Strong"/>
+            <depend id="45" type="2" difference="0" hardness="Strong"/>
+            <depend id="46" type="2" difference="0" hardness="Strong"/>
+            <depend id="47" type="2" difference="0" hardness="Strong"/>
+            <depend id="48" type="2" difference="0" hardness="Strong"/>
+            <depend id="52" type="2" difference="0" hardness="Strong"/>
+            <depend id="56" type="2" difference="0" hardness="Strong"/>
+            <depend id="57" type="2" difference="0" hardness="Strong"/>
+            <depend id="58" type="2" difference="0" hardness="Strong"/>
+            <depend id="59" type="2" difference="0" hardness="Strong"/>
+            <depend id="60" type="2" difference="0" hardness="Strong"/>
+            <depend id="66" type="2" difference="0" hardness="Strong"/>
+            <depend id="148" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín, Tomás"/>
+        </task>
+        <task id="25" uid="57c31f5aefdd4d02b700cd56f9c9b2c8" name="Reglas del Grupo" color="#ff3333" meeting="false" start="2024-05-10" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="26" uid="e71209b789934bb0a5ebcaacca33a5b2" name="Roles del Grupo" color="#ff3333" meeting="false" start="2024-05-10" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="24" uid="5e69919c445f408ebe21559b3ea9e928" name="Nombre del Grupo" color="#cc0000" meeting="false" start="2024-05-10" duration="12" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín, Tomás"/>
+        </task>
+        <task id="27" uid="96f5257ec64747079d5b5feba0c7fd62" name="Fotos de los Integrantes" color="#ff3333" meeting="false" start="2024-05-10" duration="5" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín, Tomás"/>
+        </task>
+        <task id="28" uid="6da1ebc6cea74aa6abe07c98b5993ae7" name="Análisis de la realidad" color="#66ff66" meeting="false" start="2024-05-10" duration="21" complete="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="29" uid="2434f35b075747668335f6e02b6adbc0" name="Modelo Entidad-Relación" color="#66ff66" meeting="false" start="2024-06-10" duration="21" complete="0" expand="true">
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="30" uid="2b3ca8db812d4480984e8a9ec168eb94" name="Pasaje a Tablas" color="#66ff66" meeting="false" start="2024-07-09" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="31" uid="bb91ce19b18646dfb9eb875ff1495e57" name="Elección S.O" color="#0033ff" meeting="false" start="2024-05-10" duration="7" complete="0" expand="true">
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+            <depend id="34" type="2" difference="0" hardness="Strong"/>
+            <depend id="35" type="2" difference="0" hardness="Strong"/>
+            <depend id="36" type="2" difference="0" hardness="Strong"/>
+            <depend id="37" type="2" difference="0" hardness="Strong"/>
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="32" uid="0b716095c93f4d979512f689a7ed9f0e" name="Justificación S.O" color="#0033ff" meeting="false" start="2024-05-21" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="33" uid="9e6d7224d8694f2db791c6d2749c9908" name="Lista de Equipamiento para el Software" color="#0033ff" meeting="false" start="2024-05-21" duration="14" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="34" uid="c578395928414865ae88033cf9620553" name="Manual S.O" color="#0033ff" meeting="false" start="2024-05-21" duration="16" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="35" uid="4844796837774ea9b831e9f01303ad35" name="Descripción de roles" color="#0033ff" meeting="false" start="2024-05-21" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="36" uid="e97274cbef444540ab5781b1227426f4" name="Tareas a realizar por Administrador" color="#0033ff" meeting="false" start="2024-05-21" duration="14" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="37" uid="79056c4297544e9db8ef42e0e4ee724f" name="ShellScript ABM Usuarios y Grupos" color="#0033ff" meeting="false" start="2024-05-21" duration="21" complete="0" expand="true">
+            <depend id="38" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="38" uid="fd0cec981c974e87a0bb7a5da4649aad" name="Diagrama Navegabilidad" color="#0033ff" meeting="false" start="2024-06-19" duration="9" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="39" uid="273a2e5ac9b5400d869e92d1536efdd4" name="Instalación FTP y SSH" color="#0033ff" meeting="false" start="2024-05-21" duration="18" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="40" uid="5bf78019276d419cbae5f6e3e6392b8a" name="Organización de la estructura de desarrollo de la primera entrega." color="#ff3333" meeting="false" start="2024-05-10" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="41" uid="3b4f7628144340d5a24a36dcccc58b95" name="Formato de Actas" color="#ff3333" meeting="false" start="2024-05-10" duration="5" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="42" uid="a9bac447b7b94083bf82a8641f27770f" name="Control de versionado" color="#ff3333" meeting="false" start="2024-05-10" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="43" uid="aa92930dc1b0442da94e2743a4d4da07" name="Ciclo de Vida del Proyecto" color="#ff3333" meeting="false" start="2024-05-10" duration="9" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="44" uid="e77cdc5a04264ddfab29fbef8e0b07a2" name="Documentación de Inicio y Planificación." color="#ff3333" meeting="false" start="2024-05-10" duration="12" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="45" uid="2625759731284b85a1a6019a804aec9b" name="GANTT y PERT" color="#ff3333" meeting="false" start="2024-05-10" duration="14" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="46" uid="f1121aa59af1424597e482a665f32abe" name="Documentación sobre la ejecución de la primera entrega." color="#ff3333" meeting="false" start="2024-05-10" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="47" uid="3fa9e15d6e214a93a2759a96a2604a47" name="Planificación y pizarra colaborativa al día." color="#ff3333" meeting="false" start="2024-05-10" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="48" uid="083b9feb5f074e0089682f5ea28e9fd6" name="Login de usuario con diferentes perfiles" color="#00cccc" meeting="false" start="2024-05-10" duration="10" complete="0" expand="true">
+            <depend id="49" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="49" uid="b28163e4a96c4c0bb46bc1394238b411" name="Validación de Formularios" color="#00cccc" meeting="false" start="2024-05-24" duration="7" complete="0" expand="true">
+            <depend id="50" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="50" uid="8764d6888967487b8a151d00509af428" name="Mensajes de Error" color="#00cccc" meeting="false" start="2024-06-04" duration="7" complete="0" expand="true">
+            <depend id="51" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="51" uid="37fab67e3db54de39e6c8985501f9384" name="Datos de prueba seteados" color="#00cccc" meeting="false" start="2024-06-13" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="52" uid="ad2eb13b8ec744d08f90e5ba12a4fa65" name="Wireframe de Aplicación" color="#cc00cc" meeting="false" start="2024-05-10" duration="11" complete="0" expand="true">
+            <depend id="53" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Facundo, Damián"/>
+        </task>
+        <task id="53" uid="809e465d77234d3ba0b16835160fa388" name="Pantallas de usuario" color="#cc00cc" meeting="false" start="2024-05-27" duration="7" complete="0" expand="true">
+            <depend id="54" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Facundo, Damián"/>
+        </task>
+        <task id="54" uid="fcc67ea5eb0a4825b37e67ae9e302585" name="Pantalla de Login" color="#cc00cc" meeting="false" start="2024-06-05" duration="10" complete="0" expand="true">
+            <depend id="55" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="55" uid="191cdcc3b6ab4dafa2010711264381ee" name="URLS de acceso" color="#cc00cc" meeting="false" start="2024-06-19" duration="4" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="56" uid="af28ee06647d49fcac0e1c957781673a" name="Identificación de los Integrantes" color="#ffff00" meeting="false" start="2024-05-10" duration="6" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Tomás"/>
+        </task>
+        <task id="57" uid="774a5f5cca2b4831be9f05a754ab1c01" name="S.W.O.T" color="#ffff00" meeting="false" start="2024-05-10" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="58" uid="1b4644f2f4384665b6226361ac5e6714" name="Argumentación del nombre de la empresa y su propósito" color="#999900" meeting="false" start="2024-05-10" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Tomás"/>
+        </task>
+        <task id="59" uid="c717dfe6f16b4ee490cfb588c9b6e2ba" name="Técnica de investigación" color="#9999ff" meeting="false" start="2024-05-10" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Tomás"/>
+        </task>
+        <task id="60" uid="1b25731cc4524bd5adf1bb237719a7c7" name="Empleo de técnicas vistas durante el curso" color="#006666" meeting="false" start="2024-05-10" duration="9" complete="0" expand="true">
+            <depend id="61" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="61" uid="dc5e262eb5b14b09981caecb0c504c9f" name="Elaboración de formularios apropiados" color="#006666" meeting="false" start="2024-05-23" duration="7" complete="0" expand="true">
+            <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="62" uid="3fa894c98e6b46f6873079f970329a0b" name="Estudio de factibilidades." color="#006666" meeting="false" start="2024-06-03" duration="4" complete="0" expand="true">
+            <depend id="63" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="63" uid="d40705d78a534d8a84d00b4e98dd8674" name="Especificación de Requerimientos." color="#006666" meeting="false" start="2024-06-07" duration="5" complete="0" expand="true">
+            <depend id="64" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="64" uid="06cbba3f2d24404093105abfdaa78ce7" name="Árboles de decisión" color="#006666" meeting="false" start="2024-06-14" duration="7" complete="0" expand="true">
+            <depend id="65" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="65" uid="d7d5f85c1b6b4f959768a72eb95fa0c7" name="Tablas de decisión" color="#006666" meeting="false" start="2024-06-25" duration="9" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="66" uid="85d9605f1335436e82318b2cdb263a79" name="Actividad y giro a desarrollar." color="#006633" meeting="false" start="2024-05-10" duration="4" complete="0" expand="true">
+            <depend id="67" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Tomás, Joaquín"/>
+        </task>
+        <task id="67" uid="d61d94801f5946878d872f5d00db1043" name="Descripción breve del producto" color="#006600" meeting="false" start="2024-05-16" duration="7" complete="0" expand="true">
+            <depend id="68" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="68" uid="cb155727996342d88a0cfe84279a11a9" name="Plan de recursos necesarios" color="#006600" meeting="false" start="2024-05-27" duration="9" complete="0" expand="true">
+            <depend id="69" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="69" uid="87185a0ebfbf4bdfb2db0fcb8d0abe5e" name="Análisis FODA" color="#006600" meeting="false" start="2024-06-07" duration="9" complete="0" expand="true">
+            <depend id="70" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="70" uid="91b1b7eda700474d8ef48cfd4fefdcd1" name="Análisis CAME" color="#006633" meeting="false" start="2024-06-20" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="71" uid="096b1a55eb6f42a784de8436d9e932f4" name="Primera Entrega" meeting="false" start="2024-07-22" duration="1" complete="0" expand="true">
+            <depend id="72" type="2" difference="0" hardness="Strong"/>
+            <depend id="74" type="2" difference="0" hardness="Strong"/>
+            <depend id="86" type="2" difference="0" hardness="Strong"/>
+            <depend id="93" type="2" difference="0" hardness="Strong"/>
+            <depend id="95" type="2" difference="0" hardness="Strong"/>
+            <depend id="101" type="2" difference="0" hardness="Strong"/>
+            <depend id="109" type="2" difference="0" hardness="Strong"/>
+            <depend id="116" type="2" difference="0" hardness="Strong"/>
+            <depend id="119" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Tomás, Joaquín"/>
+        </task>
+        <task id="72" uid="5970604d15424acfbdf4ad55dfd84f0d" name="Plan de recursos necesarios (actualización)" color="#00ffff" meeting="false" start="2024-07-23" duration="7" complete="0" expand="true">
+            <depend id="73" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Tomás"/>
+        </task>
+        <task id="73" uid="04005f61f7034eeeb0c7ee030631f949" name="Componentes de Marketing" color="#00ffff" meeting="false" start="2024-08-01" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Tomás"/>
+        </task>
+        <task id="74" uid="6c99759c3fb443af90438e5e6a68885e" name="Modelo esencial (Ambiental + Comportamiento" meeting="false" start="2024-07-23" duration="5" complete="0" expand="true">
+            <depend id="75" type="2" difference="0" hardness="Strong"/>
+            <depend id="80" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="75" uid="637b701a85124f1a8788085d2b268475" name="Diccionario de Datos" meeting="false" start="2024-07-30" duration="5" complete="0" expand="true">
+            <depend id="76" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="76" uid="6e090314fc3f4336aa0a3074876843c9" name="Casos de uso" meeting="false" start="2024-08-06" duration="3" complete="0" expand="true">
+            <depend id="77" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="77" uid="ecb2c5fb7a324b318243fde43e059607" name="Diagrama de colaboración" meeting="false" start="2024-08-09" duration="5" complete="0" expand="true">
+            <depend id="78" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="78" uid="0652848faa3c4c319f8aebf3b82fafad" name="Diagramas de estado" meeting="false" start="2024-08-16" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="79" uid="3c9c5c886ae440f38dcc135f8c21479a" name="Diccionario de datos" meeting="false" start="2024-08-06" duration="3" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+            <depend id="81" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="80" uid="921c0094cd4d43cb8bf9e6f8d6271c9a" name="Modelo Entidad Relación Corregido" meeting="false" start="2024-07-30" duration="5" complete="0" thirdDate="2024-08-12" thirdDate-constraint="0" expand="true">
+            <depend id="79" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="81" uid="7d4ee2e63de240fb929bfb04075a2b4f" name="Asignación de permisos (Sentencias)" meeting="false" start="2024-08-09" duration="3" complete="0" thirdDate="2024-08-30" thirdDate-constraint="0" expand="true">
+            <depend id="82" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="82" uid="06cf6bea687f404593e323d4e0918b4c" name="Primera implementación de la base de datos en MySQL con datos de prueba cargados en la misma" meeting="false" start="2024-08-14" duration="5" complete="0" thirdDate="2024-09-10" thirdDate-constraint="0" expand="true">
+            <depend id="83" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="83" uid="4b1b71368d5d4f70879b94a7eb385746" name="Estudio de los permisos a la Base de Datos" meeting="false" start="2024-08-21" duration="5" complete="0" thirdDate="2024-09-24" thirdDate-constraint="0" expand="true">
+            <depend id="84" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="84" uid="c7fdd3562b4b4c25947d29c3e2d6e0d4" name="Base de Datos creada en el servidor de la institución" meeting="false" start="2024-08-28" duration="5" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+            <depend id="85" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="85" uid="08e1b30b9ba9460386990f6208b92566" name="Dump de la base de datos" meeting="false" start="2024-09-04" duration="3" complete="0" thirdDate="2024-07-08" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="86" uid="9afed9ba904f47f3babcbfd51399f5f6" name="Correcciones de la primera entrega" meeting="false" start="2024-07-23" duration="10" complete="0" thirdDate="2024-08-26" thirdDate-constraint="0" expand="true">
+            <depend id="87" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián, Tomás"/>
+        </task>
+        <task id="87" uid="da2b76d9e4734eaaa89dbe31909324d4" name="Menú de administracion para cada perfil del sistema" meeting="false" start="2024-08-06" duration="5" complete="0" thirdDate="2024-08-26" thirdDate-constraint="0" expand="true">
+            <depend id="88" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián, Tomás"/>
+        </task>
+        <task id="88" uid="99d089a1b2c34b08b29d084e85c2e5f7" name="Script que permita comprobar la conexion a internet" meeting="false" start="2024-08-13" duration="5" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+            <depend id="89" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián, Tomás"/>
+        </task>
+        <task id="89" uid="6f9bae9eb68d423fbd876eed432e9952" name="Diagrama de navegabilidad de los shellscripts" meeting="false" start="2024-08-20" duration="7" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián, Tomás"/>
+        </task>
+        <task id="90" uid="a809b05b9cac4dd39c5d109e1e943ff4" name="Instalacion y configuracion de servicio WEB y MySQL." meeting="false" start="2024-08-29" duration="5" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+            <depend id="91" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián, Tomás"/>
+        </task>
+        <task id="91" uid="2a40428f7ecc4e19b5d063f3dcbe4913" name="Definir politica de carga/actualizacion de archivos web" meeting="false" start="2024-09-05" duration="5" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+            <depend id="92" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián, Tomás"/>
+        </task>
+        <task id="92" uid="73c0b0dea4374caca62814d2a86e2f99" name="Script que permita actualizar todo el sistema" meeting="false" start="2024-09-12" duration="2" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián, Tomás"/>
+        </task>
+        <task id="93" uid="1bab0d3c79be46638ad7c6067506a315" name="Informe sobre lo que se esta trabajando" meeting="false" start="2024-07-23" duration="7" complete="0" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true">
+            <depend id="94" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Tomás, Damián"/>
+        </task>
+        <task id="94" uid="ddc7a687bc3d4505a0525cdf818cd40c" name="Primera presentacion oral del proyecto" meeting="false" start="2024-08-01" duration="20" complete="0" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás, Damián"/>
+        </task>
+        <task id="95" uid="e8cfee2967c74637ab4cb24e38abb792" name="Seguridad con variables de sesion" meeting="false" start="2024-07-23" duration="10" complete="0" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true">
+            <depend id="96" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="96" uid="fd6065076bf94224beaca7cd0a8a63ba" name="Script que permita conectarse a una base de datos  MySQL" meeting="false" start="2024-08-06" duration="5" complete="0" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true">
+            <depend id="97" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="97" uid="2986b95d4cbd4c82a6fb8b05fef473a5" name="Los datos de prueba seran accedidos desde la base de datos" meeting="false" start="2024-08-13" duration="5" complete="0" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true">
+            <depend id="98" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="98" uid="b6d6b9d93b614e1f9e907f41aba96723" name="Visualizar Registros" meeting="false" start="2024-08-20" duration="8" complete="0" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true">
+            <depend id="99" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="99" uid="a227fc5af3c24ee683cfa017fe8b6df1" name="Alta de Registros" meeting="false" start="2024-08-30" duration="5" complete="0" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true">
+            <depend id="100" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="100" uid="ad849642401c4f46ade2da0aa34fc7d7" name="Repositorio para la aplicacion" meeting="false" start="2024-09-06" duration="5" complete="0" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="101" uid="867b520ae680428eb2b46419de5b16b0" name="Wireframe finalizado" meeting="false" start="2024-07-23" duration="7" complete="0" thirdDate="2024-08-01" thirdDate-constraint="0" expand="true">
+            <depend id="102" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín"/>
+        </task>
+        <task id="102" uid="b84f9c3e5b6349eb97303b066450b9be" name="Realizar validacion de formularios" meeting="false" start="2024-08-01" duration="7" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+            <depend id="103" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín"/>
+        </task>
+        <task id="103" uid="779f3ae175574f9cbc0257f10b7f9368" name="Incorporar al diseño los componentes necesarios para emitir mensajes de error" meeting="false" start="2024-08-12" duration="7" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+            <depend id="104" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín"/>
+        </task>
+        <task id="104" uid="ef2b80027fef4af7afd5917e62d174df" name="Utilizar tooltips para mostrar informacion relevante" meeting="false" start="2024-08-21" duration="2" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+            <depend id="105" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín"/>
+        </task>
+        <task id="105" uid="dcc1d03fa1024ca6a7660ff5f3a8a815" name="Diseñar pantallas para atender algun caso en particular" meeting="false" start="2024-08-23" duration="5" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+            <depend id="106" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín"/>
+        </task>
+        <task id="106" uid="4467b01c887a48248c2f1786874a0c43" name="Implementar las clases correspondientes" meeting="false" start="2024-08-30" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+            <depend id="107" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín"/>
+        </task>
+        <task id="107" uid="88dda51e723946a6992d3497b9579a83" name="Implementar algunas de las funcionalidades del sistema segun se requiera" meeting="false" start="2024-09-02" duration="5" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+            <depend id="108" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín"/>
+        </task>
+        <task id="108" uid="b0195c3bf05e4569be0f0fbfefcbbf48" name="Atender principios de usabilidad y experiencia de usuario" meeting="false" start="2024-09-09" duration="2" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín"/>
+        </task>
+        <task id="109" uid="143d8642887848769c6f9816ffb192bb" name="Actas de Reuniones (2da Entrega)" meeting="false" start="2024-07-23" duration="17" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="110" type="2" difference="0" hardness="Strong"/>
+            <depend id="111" type="2" difference="0" hardness="Strong"/>
+            <depend id="112" type="2" difference="0" hardness="Strong"/>
+            <depend id="113" type="2" difference="0" hardness="Strong"/>
+            <depend id="114" type="2" difference="0" hardness="Strong"/>
+            <depend id="115" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="110" uid="5b92f2b30ca34dd993c0f5d0b7e2a7cd" name="Acceso al repositorio GIT" meeting="false" start="2024-08-15" duration="7" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="111" uid="843622fe532b40268c2b2b963b813204" name="Documentación de gestión planificacion y control" meeting="false" start="2024-08-15" duration="10" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="112" uid="a53eb2abadb64a9fb564c1b62e68a354" name="Diagrama GANTT" meeting="false" start="2024-08-15" duration="14" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="113" uid="7d974aaa3f7f4dc88555426c22dc91ff" name="Diagrama PERT" meeting="false" start="2024-08-15" duration="17" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="114" uid="38246ad99aa2478e9d4bd7e4c4f6c054" name="Documentacion sobre la ejecucion de la segunda entrega" meeting="false" start="2024-08-15" duration="14" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="115" uid="0f83d7b658364d27821671685954b9a1" name="Planificacion y pizarra colaborativa al dia" meeting="false" start="2024-08-15" duration="10" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo"/>
+        </task>
+        <task id="116" uid="d726f02e71b44d0f8b75fb0bba14fa92" name="Borrador de lo que se aplicará posteriormente" meeting="false" start="2024-07-23" duration="8" complete="0" thirdDate="2024-08-01" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín"/>
+        </task>
+        <task id="119" uid="aee42eb6229a409682c6b0249b4e12cb" name="Argumentacion del equipamiento y software elegido" meeting="false" start="2024-07-23" duration="14" complete="0" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín"/>
+        </task>
+        <task id="120" uid="896042a7baee4e88bdf3ca213f3fce43" name="Segunda Entrega" meeting="false" start="2024-09-13" duration="1" complete="0" expand="true">
+            <depend id="121" type="2" difference="0" hardness="Strong"/>
+            <depend id="123" type="2" difference="0" hardness="Strong"/>
+            <depend id="124" type="2" difference="0" hardness="Strong"/>
+            <depend id="125" type="2" difference="0" hardness="Strong"/>
+            <depend id="126" type="2" difference="0" hardness="Strong"/>
+            <depend id="127" type="2" difference="0" hardness="Strong"/>
+            <depend id="128" type="2" difference="0" hardness="Strong"/>
+            <depend id="129" type="2" difference="0" hardness="Strong"/>
+            <depend id="130" type="2" difference="0" hardness="Strong"/>
+            <depend id="131" type="2" difference="0" hardness="Strong"/>
+            <depend id="132" type="2" difference="0" hardness="Strong"/>
+            <depend id="139" type="2" difference="0" hardness="Strong"/>
+            <depend id="142" type="2" difference="0" hardness="Strong"/>
+            <depend id="143" type="2" difference="0" hardness="Strong"/>
+            <depend id="146" type="2" difference="0" hardness="Strong"/>
+            <depend id="147" type="2" difference="0" hardness="Strong"/>
+            <depend id="149" type="2" difference="0" hardness="Strong"/>
+            <depend id="150" type="2" difference="0" hardness="Strong"/>
+            <depend id="151" type="2" difference="0" hardness="Strong"/>
+            <depend id="152" type="2" difference="0" hardness="Strong"/>
+            <depend id="153" type="2" difference="0" hardness="Strong"/>
+            <depend id="154" type="2" difference="0" hardness="Strong"/>
+            <depend id="155" type="2" difference="0" hardness="Strong"/>
+            <depend id="156" type="2" difference="0" hardness="Strong"/>
+            <depend id="157" type="2" difference="0" hardness="Strong"/>
+            <depend id="158" type="2" difference="0" hardness="Strong"/>
+            <depend id="159" type="2" difference="0" hardness="Strong"/>
+            <depend id="160" type="2" difference="0" hardness="Strong"/>
+            <depend id="161" type="2" difference="0" hardness="Strong"/>
+            <depend id="162" type="2" difference="0" hardness="Strong"/>
+            <depend id="163" type="2" difference="0" hardness="Strong"/>
+            <depend id="164" type="2" difference="0" hardness="Strong"/>
+            <depend id="165" type="2" difference="0" hardness="Strong"/>
+            <depend id="166" type="2" difference="0" hardness="Strong"/>
+            <depend id="167" type="2" difference="0" hardness="Strong"/>
+            <depend id="168" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Joaquín, Tomás"/>
+        </task>
+        <task id="121" uid="d25c2d57474d48df9689350e8bebc031" name="Flujo de caja" meeting="false" start="2024-09-16" duration="14" complete="0" expand="true">
+            <depend id="122" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Tomás, Joaquín"/>
+        </task>
+        <task id="122" uid="37948c0f34e4491bae2802f5c6b4beaf" name="Análisis de viabilidad" meeting="false" start="2024-10-04" duration="16" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián, Facundo, Tomás, Joaquín"/>
+        </task>
+        <task id="123" uid="389c32380131498391dc4944a468f26d" name="Diagrama de clases" meeting="false" start="2024-09-16" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="124" uid="efddfe09988a4a2cbac488c82065f928" name="D.F.D" meeting="false" start="2024-09-16" duration="14" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="125" uid="7d7968cf017e4a1f9c778d8a3b67227c" name="Plan de testing" meeting="false" start="2024-09-16" duration="9" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="126" uid="8dce87a562c842f3862ed112352d3326" name="Pruebas funcionales" meeting="false" start="2024-09-16" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="127" uid="9416cd48d98946a2963e1a07943f943a" name="Manual de usuario" meeting="false" start="2024-09-16" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="128" uid="8d0ca1084fb54c5fa2315f0531593254" name="Manual de instalación" meeting="false" start="2024-09-16" duration="9" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="129" uid="52be678508fd4ca3901decb16dc24e78" name="Anexos" meeting="false" start="2024-09-16" duration="14" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="130" uid="1800c6333c5744929ce89ad38eff0c6b" name="Estudio de las herramientas C.A.S.E" meeting="false" start="2024-09-16" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="131" uid="3804d3327a7f45d68bb4d6407e70443a" name="Créditos y Bibliografía" meeting="false" start="2024-09-16" duration="5" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás"/>
+        </task>
+        <task id="132" uid="1211ea67183e4e4a907a558e2f86eee7" name="Modelo Entidad Relación" meeting="false" start="2024-09-16" duration="14" complete="0" expand="true">
+            <depend id="133" type="2" difference="0" hardness="Strong"/>
+            <depend id="135" type="2" difference="0" hardness="Strong"/>
+            <depend id="136" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="133" uid="e9fd5669e7394f02b4338ce5b32e682d" name="Diccionario de Datos" meeting="false" start="2024-10-04" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="134" uid="712a41edf00a474daa6f6ac96dbf2718" name="Permisos a la base de datos" meeting="false" start="2024-10-24" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="135" uid="dc0d55702a4e430f9ebcc0ac5b32aa8c" name="Implementación de Vistas" meeting="false" start="2024-10-04" duration="16" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="136" uid="987910f4275641d4971e33399c22a3df" name="Implementación final de la base de datos en MySQL" meeting="false" start="2024-10-04" duration="14" complete="0" expand="true">
+            <depend id="134" type="2" difference="0" hardness="Strong"/>
+            <depend id="137" type="2" difference="0" hardness="Strong"/>
+            <depend id="138" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="137" uid="079f047557194fce9620d42fdc0328e1" name="Consultas finales a la base de datos en MySQL" meeting="false" start="2024-10-24" duration="1" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="138" uid="730a334acfad4e1c8e60757bc3fc4b5c" name="Ingreso de datos de prueba, indicando ejemplos de sentencias SQL" meeting="false" start="2024-10-24" duration="14" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="139" uid="9f5ead839ff24e17850477d020c4506a" name="Correcciones de la segunda entrega." meeting="false" start="2024-09-16" duration="8" complete="0" expand="true">
+            <depend id="140" type="2" difference="0" hardness="Strong"/>
+            <depend id="141" type="2" difference="0" hardness="Strong"/>
+            <depend id="145" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="140" uid="fa77e2796db14c56a215d0fa7d7ae495" name="Actualización de los menú con los nuevos scripts." meeting="false" start="2024-09-26" duration="14" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="141" uid="8dabe27b1d134338ae3029686326d92b" name="Script que permita respaldar el sitio web." meeting="false" start="2024-09-26" duration="10" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="142" uid="b3789a0bf6a349eea848ca2f0ce1aa89" name="Script que permita respaldar la BD e información necesaria de la misma." meeting="false" start="2024-09-16" duration="12" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="143" uid="dc1e2837de12432d96e9e5b825f2ab2b" name="Definir política de respaldo." meeting="false" start="2024-09-16" duration="14" complete="0" expand="true">
+            <depend id="144" type="2" difference="0" hardness="Strong"/>
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="144" uid="efd74bbf901549a2a9182ed6e0268545" name="Programar tarea de respaldo acorde a lo definidoen la política." meeting="false" start="2024-10-04" duration="11" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="145" uid="307b8e2c49204938aa4e7e88d0fb7121" name="Actualización del diagrama de navegabilidad." meeting="false" start="2024-09-26" duration="12" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="146" uid="9086dba737e246caa59e483b8c9180da" name="Definir política de carga/actualización de archivos web." meeting="false" start="2024-09-16" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="147" uid="cff8e44a68f84820af063207314c3910" name="Script que permita ver el estado, iniciar, reiniciar y detener los servicios WEB,FTP y de BD." meeting="false" start="2024-09-16" duration="10" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo"/>
+        </task>
+        <task id="148" uid="92b19d40d179485ea6400221b2ffb3e2" name="Actas de reuniones (PRIMERA, SEGUNDA Y TERCER ENTREGA)." meeting="false" start="2024-05-10" duration="137" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="149" uid="7c62cef037bf43ebb7025600358ee7a0" name="Diagrama de Gantt (cronograma de la gestión del proyecto tercera entrega) yP.E.R.T.(cálculos asociados e identificación del camino crítico.)" meeting="false" start="2024-09-16" duration="16" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="150" uid="b090df4996bb4e90a7d227ff3a833dea" name="Documentación de Cierre de Proyecto." meeting="false" start="2024-09-16" duration="9" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="151" uid="0140ed6351d441939d5fbddfe8d56513" name="Documentación de Gestión y control de Avances del Proyecto." meeting="false" start="2024-09-16" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="152" uid="84cec189a0a94bffb9b32514fcb53733" name="Planificación y pizarra colaborativa al día." meeting="false" start="2024-09-16" duration="5" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Facundo, Damián"/>
+        </task>
+        <task id="153" uid="b07156ead9554950a1fd6f9ca4acf4ec" name="La aplicación deberá estar finalizada" meeting="false" start="2024-09-16" duration="30" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="154" uid="aa10ac4297c840d5816db37357ccbc97" name="CRUD completo con todos los registros" meeting="false" start="2024-09-16" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="155" uid="15e60f0f4746444db9414b60ced8f10a" name="El sistema permitirá realizar bajas lógicas y/o físicas" meeting="false" start="2024-09-16" duration="10" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="156" uid="15b88c9c54e74a95aaeda1da93f3bc7e" name="Se presentará un Manual del usuario digitalizado ADA" meeting="false" start="2024-09-16" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="157" uid="84661d81c6af462492a9fbcf99ea2506" name="Presentar un documento con todas las credenciales para ser accedidos." meeting="false" start="2024-09-16" duration="11" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="158" uid="7bee919fa2f94a1b8abfc5a370a0f5e1" name="Reportes en Excel y/o PDF" meeting="false" start="2024-09-16" duration="9" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="159" uid="bd50c7f2da934dcc88a8ad6fbe61bfe5" name="Todos los cambios realizados a la aplicación deberán estar disponibles en el repositorio." meeting="false" start="2024-09-16" duration="12" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="160" uid="84145680384648319b89c59dcf4b62a0" name="La aplicación deberá estar alojada en un hosting compartido." meeting="false" start="2024-09-16" duration="5" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Damián"/>
+        </task>
+        <task id="161" uid="5a91b32db23f496b992444b809bfe517" name="Incorporar un área de reportes que permita descargar un archivo .pdf" meeting="false" start="2024-09-16" duration="7" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Damián, Facundo"/>
+        </task>
+        <task id="162" uid="06b6a34c44a44fa888e5559578924d46" name="Aplicar un filtro a una de las tablas de acuerdo al nombre" meeting="false" start="2024-09-16" duration="10" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Damián, Facundo"/>
+        </task>
+        <task id="163" uid="1f8ccb399d534133a9740d7750ce46e5" name="Implementar un buscador" meeting="false" start="2024-09-16" duration="18" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Damián, Facundo"/>
+        </task>
+        <task id="164" uid="05be9a2041b745de81dd79ec796ea9f5" name="Se deberá proveer la url en donde está alojada la aplicación." meeting="false" start="2024-09-16" duration="5" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Damián, Facundo"/>
+        </task>
+        <task id="165" uid="594c69e95813451ea30a9470063fc3a2" name="Compartir el repositorio" meeting="false" start="2024-09-16" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín, Damián, Facundo"/>
+        </task>
+        <task id="166" uid="0576db60a4c44a8887d5ae5f52d5dfd1" name="“ABSTRACT” que debe estar al principio de las carpetas tanto en formato papel como digital con un anticipo del contenido del proyecto." meeting="false" start="2024-09-16" duration="12" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Tomás, Damián"/>
+        </task>
+        <task id="167" uid="05d89a1b39bc495f8c8ac50f26b15a13" name="Argumentar los recursos utilizados por el equipo para llevar el proyecto adelante,así como también una argumentación general del proyecto" meeting="false" start="2024-09-16" duration="8" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín"/>
+        </task>
+        <task id="168" uid="669ab4ff9e7144e9bbee57acce74a368" name="Exposición de los resultados obtenidos mediante gráficos y/o descripción, según corresponda." meeting="false" start="2024-09-16" duration="14" complete="0" expand="true">
+            <customproperty taskproperty-id="tpc0" value="Joaquín"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
